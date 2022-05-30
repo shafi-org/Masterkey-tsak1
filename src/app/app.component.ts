@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'task1';
+  preventDefoult(event:any){
+    event.preventDefoult()
+  }
 }
